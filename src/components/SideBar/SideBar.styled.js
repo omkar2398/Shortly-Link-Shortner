@@ -8,7 +8,7 @@ export const SidebarContainer = styled.aside`
     display: none;
   }
 
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: ${({ isOpen }) => (isOpen ? "block" : "none")};
     background-color: #3b3054;
     font-size: 18px;
@@ -44,7 +44,7 @@ export const SidebarMenu = styled.ul`
   text-align: center;
   padding: 0;
   margin: 0;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: block;
   }
 `;

@@ -7,7 +7,7 @@ export const Div = styled.div`
   top: -6rem;
   width: 100%;
   background-color: #eff1f7;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     z-index: 0;
     background-color: #eff1f7;
@@ -28,7 +28,7 @@ export const Heading = styled.h1`
   align-items: center;
   justify-content: center;
   // border : 2px solid red;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     // border : 2px solid red;
     // height : 4rem;
@@ -53,7 +53,7 @@ export const Para = styled.p`
   align-items: center;
   text-align: center;
   // border : 2px solid blue;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     left: 1.6rem;
     margin-right: 2rem;
@@ -77,7 +77,7 @@ export const Modal1 = styled.div`
   left: 9rem;
   background-color: white;
   z-index: 999;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     margin-top: 20.5rem;
     margin-left: -6.8rem;
@@ -96,7 +96,7 @@ export const Modal2 = styled.div`
   margin-top: 18rem;
   left: 29.8rem;
   background-color: white;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     margin-top: 44rem;
     margin-left: -27.5rem;
@@ -116,7 +116,7 @@ export const Modal3 = styled.div`
   margin-top: 20rem;
   right: 10.4rem;
   background-color: white;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     margin-top: 67rem;
     // margin-left : -6rem;
@@ -135,7 +135,7 @@ export const Heading1 = styled.h3`
   margin-left: 20px;
   margin-top: 3rem;
   padding: 3px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -147,7 +147,7 @@ export const Para1 = styled.p`
   color: #bfbfbf;
   margin-top: 6rem;
   margin-left: 20px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -160,7 +160,7 @@ export const Heading2 = styled.h3`
   margin-left: 20px;
   margin-top: 3rem;
   padding: 3px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -172,7 +172,7 @@ export const Para2 = styled.p`
   font-size: 14px;
   margin-top: 6rem;
   margin-left: 20px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -185,7 +185,7 @@ export const Heading3 = styled.h3`
   margin-left: 20px;
   margin-top: 3rem;
   padding: 3px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -197,7 +197,7 @@ export const Para3 = styled.p`
   font-size: 14px;
   margin-top: 6rem;
   margin-left: 20px;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -212,7 +212,7 @@ export const Circle = styled.div`
   margin-top: -2rem;
   margin-left: 2rem;
   border-radius: 100%;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -228,7 +228,7 @@ export const Line = styled.div`
   height: 7px;
   width: 32rem;
   background-color: #2acfcf;
-  @media screen and (max-width: 760px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     margin-left: 0rem;
     margin-top: 53rem;

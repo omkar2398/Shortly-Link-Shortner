@@ -5,7 +5,7 @@ export const Description = styled.div`
   display: flex;
   align-items: center;
   margin-top: 3rem;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     flex-direction: column;
   }
@@ -16,7 +16,7 @@ export const ContentWrapper = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   margin: 0 9rem;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     order: 2;
   }
@@ -25,7 +25,7 @@ export const ContentWrapper2 = styled.div`
   display: flex;
   align-items: center;
   width: 50vw;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: flex;
     height: fit-content;
     margin-bottom: 2rem;
@@ -42,7 +42,7 @@ export const Heading = styled.h1`
   line-height: 4rem;
   margin: 0;
   letter-spacing: -0.2rem;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: block;
     text-align: center;
     margin: 1rem 0;
@@ -60,7 +60,7 @@ export const Para = styled.p`
   margin: 0 0 1rem 0;
   color: #9e9aa7;
   margin: 0 1rem 0 0;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     text-align: center;
     width: 90vw;
   }
@@ -72,7 +72,7 @@ export const BtnWrapper = styled.div`
   flex-direction: column;
   align-items: start;
   cursor: pointer;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     align-items: center;
     padding-bottom: 22px;
   }
@@ -98,7 +98,7 @@ export const Person = styled.div`
   align-items: center;
   width: 100%;
   margin-left: -6rem;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     & img {
       display: block;
       width: 90vw;

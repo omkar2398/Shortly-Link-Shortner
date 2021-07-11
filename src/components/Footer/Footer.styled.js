@@ -7,9 +7,8 @@ export const FooterContainer = styled.div`
   width: 100%;
   background-color: #3b3054;
   padding-bottom: 1rem;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: block;
-    margin-top: 0;
   }
 `;
 
@@ -21,15 +20,15 @@ export const Background = styled.div`
   justify-content: center;
   margin-top: 2px;
   background-color: #3b3054;
-  @media screen and (max-width: 375px) {
-    display: flex;
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
 export const GetStarted = styled.div`
   display: flex;
-  @media screen and (max-width: 375px) {
-    display: flex;
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
@@ -45,7 +44,8 @@ export const Head = styled.h1`
   height: 40px;
   text-align: center;
   justify-content: center;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
@@ -68,8 +68,8 @@ export const Btn = styled.button`
   align-items: center;
   margin-top: 6rem;
   margin-left: 35rem;
-  @media screen and (max-width: 375px) {
-    display: none;
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
@@ -79,7 +79,8 @@ export const MainFooter = styled.div`
   width: 100%;
   margin-top: -32px;
   background-color: #232127;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
@@ -96,7 +97,8 @@ export const Logo = styled.div`
   margin-left: 9rem;
   font-size: 30px;
   font-weight: bold;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
@@ -106,17 +108,16 @@ export const FooterItems = styled.div`
   width: 40%;
   margin-top: 4rem;
   margin-left: 9rem;
-  @media screen and (max-width: 375px) {
-    display: none;
-    /* margin-top: rem; */
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
 export const FooterHead = styled.h2`
   font-size: 18px;
   color: white;
-  @media screen and (max-width: 375px) {
-    display: none;
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
@@ -129,8 +130,8 @@ export const FooterMenu1 = styled.ul`
   justify-content: center;
   color: #bfbfbf;
   cursor: pointer;
-  @media screen and (max-width: 375px) {
-    display: none;
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 export const FooterMenu2 = styled.ul`
@@ -145,8 +146,8 @@ export const FooterMenu2 = styled.ul`
   justify-content: center;
   color: #bfbfbf;
   cursor: pointer;
-  @media screen and (max-width: 375px) {
-    display: none;
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 export const FooterMenu3 = styled.ul`
@@ -161,15 +162,15 @@ export const FooterMenu3 = styled.ul`
   justify-content: center;
   color: #bfbfbf;
   cursor: pointer;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
 
 export const FooterList = styled.li`
   height: 10px;
-  @media screen and (max-width: 375px) {
-    display: none;
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
@@ -180,8 +181,8 @@ export const FooterLinks = styled.div`
   height: 50px;
   width: 18%;
   margin-left: 60rem;
-  @media screen and (max-width: 375px) {
-    display: none;
+  @media screen and (max-width: 980px) {
+    display: block;
   }
 `;
 
@@ -193,7 +194,7 @@ export const FaceBookLogo = styled.div`
   justify-content: center;
   margin-left: 1rem;
   cursor: pointer;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -205,7 +206,7 @@ export const TwitterLogo = styled.div`
   justify-content: center;
   margin-left: 4rem;
   cursor: pointer;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -217,7 +218,7 @@ export const PinterestLogo = styled.div`
   justify-content: center;
   margin-left: 7rem;
   cursor: pointer;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;
@@ -229,7 +230,7 @@ export const InstaLogo = styled.div`
   justify-content: center;
   margin-left: 10rem;
   cursor: pointer;
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 980px) {
     display: flex;
   }
 `;

@@ -3,7 +3,8 @@ import axios from "axios";
 
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import {
-  Background,
+  Form,
+  Layout,
   SearchBar,
   Button,
   LinkList,
@@ -42,27 +43,27 @@ const Searchbar = () => {
 
   return (
     <>
-      <Background>
+      <Form>
         <img
           src={process.env.PUBLIC_URL + "assets/bg-shorten-desktop.svg"}
           alt="bg-short"
         />
-        <SearchBar
-          input
-          type="text"
-          placeholder="Shorten a link here..."
-          value={query}
-          onChange={(e) => setQuery(e.target.value)}
-        />
-        <Button onClick={handleOnClick}>
-          {loading ? "Shortening...." : "Shorten It!"}
-        </Button>
-      </Background>
+        <Layout>
+          <SearchBar
+            input
+            type="text"
+            placeholder="Shorten a link here..."
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+          ></SearchBar>
+          <Button onClick={handleOnClick}>
+            {loading ? "Shortening...." : "Shorten It!"}
+          </Button>
+        </Layout>
+      </Form>
 
       <LinkList>
-        <Paragraph>
-          {response ? response?.result?.short_link : "Please add a link"}
-        </Paragraph>
+        <Paragraph>{response ? response?.result?.short_link : ""}</Paragraph>
         <CopyToClipboard
           text={response?.result?.short_link}
           onCopy={() => setCopied(true)}

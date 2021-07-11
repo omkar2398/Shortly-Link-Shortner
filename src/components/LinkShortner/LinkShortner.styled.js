@@ -1,123 +1,120 @@
 import styled from "styled-components";
 
-export const Background = styled.div`
-  display: flex;
+export const Form = styled.div`
   position: relative;
-  margin: 3rem 12.5%;
-  max-width: 100%;
-  height: 10rem;
-  background-color: #3b3054;
-  border-radius: 20px;
-  & img {
-    height: 155px;
-    width: 100%;
-    border-radius: 20px;
+  width: 80vw;
+  margin: 2rem auto;
+  & > img {
+    background-color: #3b3054;
   }
-  @media screen and (max-width: 760px) {
-    margin-top: 1rem;
-    height: 10rem;
-    width: 100%;
-    max-width: 95%;
-    margin-bottom: 2rem;
-    margin-left: 1rem;
-    & img {
-      height: auto;
+
+  @media screen and (max-width: 980px) {
+    position: relative;
+    display: block;
+    height: 100%;
+    margin: 1rem 2rem;
+    & > img {
+      width: 80vw;
+      height: 200px;
+      margin: 0 auto;
+      border-radius: 10px;
     }
   }
 `;
 
-export const SearchBar = styled.input`
+export const Layout = styled.div`
   display: flex;
+  width: 70vw;
   position: absolute;
-  font-size: 20px;
-  left: 2rem;
-  top: 3rem;
-  height: 40%;
-  width: 80%;
-  max-width: 65%;
-  border-radius: 20px;
-  outline: none;
-  @media screen and (max-width: 760px) {
-    top: 1rem;
-    left: 1rem;
-    font-size: 18px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  @media screen and (max-width: 980px) {
+    display: block;
     width: 100%;
-    max-width: 90%;
+    height: auto;
+  }
+`;
+
+export const SearchBar = styled.input`
+  width: 100%;
+  margin: auto 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+
+  @media screen and (max-width: 980px) {
+    display: block;
+    width: 58vw;
+    margin: 1rem auto;
+    border-radius: 0;
   }
 `;
 
 export const Button = styled.button`
-  display: flex;
-  position: absolute;
-  border-radius: 20px;
-  color: white;
+  width: 30%;
+  margin: auto 1rem;
+  padding: 1.5rem;
   background-color: #2acfcf;
-  white-space: nowrap;
-  padding: 16px 30px;
+  color: #fff;
   font-size: 18px;
-  cursor: pointer;
-  outline: none;
+  font-weight: bold;
   border: none;
-  text-decoration: none;
-  margin-left: 76%;
-  margin-top: 3rem;
-  @media screen and (max-width: 760px) {
-    top: 2.5rem;
-    right: 1rem;
-    font-size: 18px;
-    justify-content: center;
-    text-align: center;
-    width: 100%;
-    max-width: 90%;
+  border-radius: 10px;
+
+  @media screen and (max-width: 980px) {
+    display: block;
+    width: 70vw;
+    margin: 1rem auto;
+    border-radius: 0;
   }
 `;
 
 export const LinkList = styled.div`
   display: flex;
-  z-index: 1;
-  position: relative;
-  background-color: #fff;
-  border: 1px solid #3b3054;
+  justify-content: center;
   align-items: center;
-  height: 4rem;
-  justify-content: space-between;
-  padding: 1rem 2rem;
-  margin: 2rem 12rem;
-  @media screen and (max-width: 760px) {
-    display: flex;
-    position: relative;
-    margin: 1rem 1rem;
-    width: 100%;
-    max-width: 95%;
-    z-index: 0;
+  margin: 0 auto;
+  background-color: #fff;
+  width: 70vw;
+
+  @media screen and (max-width: 980px) {
+    display: block;
+    width: 70vw;
+    margin: 10rem 0;
   }
 `;
 
 export const CopyBtn = styled.button`
-  display: flex;
-  position: absolute;
-  border-radius: 20px;
-  color: white;
+  width: 10%;
+  margin: auto 1rem;
+  padding: 1rem;
   background-color: #2acfcf;
-  white-space: nowrap;
-  padding: 10px 30px;
+  color: #fff;
   font-size: 18px;
-  cursor: pointer;
-  outline: none;
+  font-weight: bold;
   border: none;
-  right: 8rem;
-  text-decoration: none;
-  @media screen and (max-width: 760px) {
-    right: 1rem;
+  border-radius: 10px;
+
+  @media screen and (max-width: 980px) {
+    display: block;
+    width: 70vw;
+    margin: 1rem auto;
   }
 `;
 
 export const Paragraph = styled.p`
-  display: flex;
-  align-items: center;
-  @media screen and (max-width: 760px) {
-    /* justify-content: center;
-    text-align: center;
-    align-items: center; */
+  width: 100%;
+  color: #2acfcf;
+  font-weight: bold;
+
+  @media screen and (max-width: 980px) {
+    display: block;
+    width: 70vw;
+    margin: 1rem 0;
+    color: #2acfcf;
+    font-weight: bold;
   }
 `;

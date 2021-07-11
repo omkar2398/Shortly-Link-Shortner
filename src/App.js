@@ -12,8 +12,8 @@ function App() {
         <Home />
         <Hero />
         <LinkShortner />
-        <AdvancedStatistics />
-        <Footer />
+        {/* <AdvancedStatistics /> */}
+        {/* <Footer /> */}
       </div>
     </>
   );
