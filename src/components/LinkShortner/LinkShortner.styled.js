@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const Form = styled.div`
   position: relative;
-  width: 80vw;
+  width: 80%;
   margin: 2rem auto;
   & > img {
+    width: 100%;
     background-color: #3b3054;
   }
 
@@ -12,9 +13,10 @@ export const Form = styled.div`
     position: relative;
     display: block;
     height: 100%;
-    margin: 1rem 2rem;
+    width: 80%;
+    margin: 1rem auto;
     & > img {
-      width: 80vw;
+      width: 100%;
       height: 200px;
       margin: 0 auto;
       border-radius: 10px;
@@ -47,7 +49,7 @@ export const SearchBar = styled.input`
 
   @media screen and (max-width: 980px) {
     display: block;
-    width: 58vw;
+    width: 80%;
     margin: 1rem auto;
     border-radius: 0;
   }
@@ -66,7 +68,7 @@ export const Button = styled.button`
 
   @media screen and (max-width: 980px) {
     display: block;
-    width: 70vw;
+    width: 90%;
     margin: 1rem auto;
     border-radius: 0;
   }

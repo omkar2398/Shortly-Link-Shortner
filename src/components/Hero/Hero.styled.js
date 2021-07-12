@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 export const Description = styled.div`
   display: flex;
   align-items: center;
-  margin-top: 3rem;
+  margin: 3rem 0 0 auto;
+  width: 90%;
   @media screen and (max-width: 980px) {
     display: flex;
     flex-direction: column;
+    margin: auto;
   }
 `;
 
 export const ContentWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  margin: 0 9rem;
   @media screen and (max-width: 980px) {
     display: flex;
     order: 2;
@@ -24,7 +24,6 @@ export const ContentWrapper = styled.div`
 export const ContentWrapper2 = styled.div`
   display: flex;
   align-items: center;
-  width: 50vw;
   @media screen and (max-width: 980px) {
     display: flex;
     height: fit-content;
@@ -45,8 +44,7 @@ export const Heading = styled.h1`
   @media screen and (max-width: 980px) {
     display: block;
     text-align: center;
-    margin: 1rem 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
     width: 90vw;
     line-height: 3rem;
     letter-spacing: 0;
@@ -56,11 +54,12 @@ export const Heading = styled.h1`
 export const Para = styled.p`
   text-align: start;
   font-size: 18px;
-  white-space: wrap;
-  margin: 0 0 1rem 0;
+  font-weight: bold;
+  width: 70%;
   color: #9e9aa7;
-  margin: 0 1rem 0 0;
   @media screen and (max-width: 980px) {
+    font-size: 1.6rem;
+    margin: 1rem 0;
     text-align: center;
     width: 90vw;
   }
@@ -97,7 +96,11 @@ export const Person = styled.div`
   display: flex;
   align-items: center;
   width: 100%;
-  margin-left: -6rem;
+
+  & > img {
+    height: 100%;
+    width: 100%;
+  }
   @media screen and (max-width: 980px) {
     & img {
       display: block;

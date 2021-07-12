@@ -9,7 +9,7 @@ export const Nav = styled.nav`
   margin: 2rem 0;
   font-size: 18px;
   z-index: 10;
-  width: 100vw;
+  width: 100%;
   @media screen and (max-width: 980px) {
     margin: 0;
     transition: 0.8s all ease;
