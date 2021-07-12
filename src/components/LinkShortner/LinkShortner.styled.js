@@ -26,7 +26,7 @@ export const Form = styled.div`
 
 export const Layout = styled.div`
   display: flex;
-  width: 70vw;
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -49,7 +49,7 @@ export const SearchBar = styled.input`
 
   @media screen and (max-width: 980px) {
     display: block;
-    width: 80%;
+    width: 70%;
     margin: 1rem auto;
     border-radius: 0;
   }
@@ -68,7 +68,7 @@ export const Button = styled.button`
 
   @media screen and (max-width: 980px) {
     display: block;
-    width: 90%;
+    width: 85%;
     margin: 1rem auto;
     border-radius: 0;
   }
@@ -84,8 +84,8 @@ export const LinkList = styled.div`
 
   @media screen and (max-width: 980px) {
     display: block;
-    width: 70vw;
-    margin: 10rem 0;
+    width: 70%;
+    margin: 10rem auto;
   }
 `;
 
@@ -102,7 +102,7 @@ export const CopyBtn = styled.button`
 
   @media screen and (max-width: 980px) {
     display: block;
-    width: 70vw;
+    width: 70%;
     margin: 1rem auto;
   }
 `;
