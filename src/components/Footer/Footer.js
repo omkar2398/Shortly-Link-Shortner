@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   FooterContainer,
-  Background,
+  Layout,
   MainFooter,
   Btn,
   Head,
@@ -24,15 +24,16 @@ const Footer = () => {
   return (
     <>
       <FooterContainer>
-        <Background>
-          <img
-            src={process.env.PUBLIC_URL + "assets/bg-boost-desktop.svg"}
-            alt="bg-boost"
-          />
-        </Background>
-        <Head>Boost your links today</Head>
-        <Btn>Get Started</Btn>
+        <img
+          src={process.env.PUBLIC_URL + "assets/bg-boost-desktop.svg"}
+          alt="bg-boost"
+        />
+        <Layout>
+          <Head>Boost your links today</Head>
+          <Btn>Get Started</Btn>
+        </Layout>
       </FooterContainer>
+
       <MainFooter>
         <Logo>Shortly</Logo>
         <FooterItems>
