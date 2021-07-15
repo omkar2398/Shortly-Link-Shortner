@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Layout = styled.div`
-  background-color: #ffe5e3;
+  background-color: #fff1f0;
   padding: 3rem;
 `;
 
@@ -42,7 +42,7 @@ export const Div = styled.div`
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 1rem auto;
+    margin: 2rem auto;
     padding: 0;
   }
 `;
